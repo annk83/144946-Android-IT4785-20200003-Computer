@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/secondary"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:gravity="right"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="409dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/ce"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="CE"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="C"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/bs"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="BS"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/div"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="/"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/l7"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="7"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="src_over" />
+
+            <Button
+                android:id="@+id/l8"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="8"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/l9"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="9"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/mul"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="x"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/l4"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="4"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/l5"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="5"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/l6"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="6"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/sub"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="-"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/l1"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="1"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/l2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="2"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/l3"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="3"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="+"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/sa"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="+/-"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/l0"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/num_btn"
+                android:text="0"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/dot"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="."
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+
+            <Button
+                android:id="@+id/eq"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/func_btn"
+                android:text="="
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                app:backgroundTint="#00000000"
+                app:backgroundTintMode="add" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/primary"
+        android:layout_width="400dp"
+        android:layout_height="160dp"
+        android:gravity="right"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
